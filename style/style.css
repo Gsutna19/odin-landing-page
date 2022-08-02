@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, 'Ubuntu', 'Helvetica', sans-serif;
+}
+
+/* NAV STYLES */
+nav {
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+/* .link-container {
+    display: flex;
+    justify-content: space-between;
+} */
+
+nav > a { 
+    color: #f9faf8;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    padding: 0;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* HEADER STYLES */
+header {
+    padding: 0 32px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 96px 0;
+    gap: 72px;
+}
+
+.left {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 420px;
+    /* padding: 16px; */
+}
+
+h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+.left > p {
+    color:#e5e7eb;
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 4px;
+    border-style: none;
+    width: 100px;
+    height: 24px;
+    margin: 8px 0 0 0;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+/* MAIN STYLES */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+    width: 170px;
+    margin: 0;
+}
+
+.cards > img {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #3882f6;
+    margin: 0;
+}
+
+.cards > p {
+    text-align: center;
+    font-size: 18px;
+    padding: 0;
+    margin: 8px 0;
+}
+
