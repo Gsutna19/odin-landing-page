@@ -188,3 +188,13 @@ h3 {
     border-color: white;
     margin: 72px 0;
 }
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2937;
+    color: #e5e7eb;
+    height: 96px;
+}
