@@ -54,7 +54,7 @@ header {
     justify-content: space-around;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 420px;
+    width: 440px;
     /* padding: 16px; */
 }
 
@@ -170,7 +170,7 @@ blockquote {
 .action {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #3882f6;
     width: 912px;
     border-radius: 8px;
@@ -179,9 +179,12 @@ blockquote {
 h3 {
     color: #f9faf8;
     font-weight: bolder;
+    font-size: 24px;
+    margin: 0;
 }
 
 .action > button {
     border-style: solid;
     border-color: white;
+    margin: 72px 0;
 }
